@@ -19,7 +19,7 @@ class Index extends React.Component<P, S> {
 
     render(): React.ReactElement<any, string | React.JSXElementConstructor<any>> | string | number | {} | React.ReactNodeArray | React.ReactPortal | boolean | null | undefined {
         return (
-            <div className={'home flex 1'}>
+            <div className={'home flex'}>
                 <Navs />
                 <h1>Home Page</h1>
             </div>
